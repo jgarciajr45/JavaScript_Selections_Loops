@@ -72,7 +72,7 @@ let value = Math.round((Math.random() * 500));
 let n = Math.round(Math.random() * (500 - 100) + 100); 
 // creates a random number between 100 and 500
 for (let i = 0; i <= n; i++) {
-    if (i === vlue) {
+    if (i === value) {
         console.log("found value!");
         break;
     }
