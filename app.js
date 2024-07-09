@@ -83,3 +83,17 @@ for (let i = 0; i <= n; i++) {
 
 // Exercise 5 Section
 console.log("EXERCISE 5:\n==========\n");
+let fizzDivisor = Math.round(Math.random() * (10 - 1) + 1);
+let buzzDivisor = Math.round(Math.random() * (10 - 1) + 1);
+let num = Math.round(Math.random() * (1000 - 1) + 1);
+let start = Math.round(Math.random() * (10 - 1) + 1);
+
+for (let i = start; i <= num; i++) {
+    if (i % fizzDivisor === 0 && i % buzzDivisor === 0) {
+        console.log('FIZZBUZZ');
+    } else if (i % fizzDivisor === 0) {
+        console.log('FIZZ');
+    } else if (i % buzzDivisor === 0) {
+        console.log('BUZZ');
+    }
+}
