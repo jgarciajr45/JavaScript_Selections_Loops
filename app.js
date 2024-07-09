@@ -67,6 +67,19 @@ do {
 
 // Exercise 4 Section
 console.log("EXERCISE 4:\n==========\n");
+let value = Math.round((Math.random() * 500)); 
+// creates a random number between 0 and 500
+let n = Math.round(Math.random() * (500 - 100) + 100); 
+// creates a random number between 100 and 500
+for (let i = 0; i <= n; i++) {
+    if (i === vlue) {
+        console.log("found value!");
+        break;
+    }
+    if (i === n) {
+        console.log("did not find value");
+    }
+}
 
 // Exercise 5 Section
 console.log("EXERCISE 5:\n==========\n");
